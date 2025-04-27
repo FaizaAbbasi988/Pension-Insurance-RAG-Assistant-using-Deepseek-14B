@@ -1,0 +1,19 @@
+{
+    "api_config": {
+        "title": "Insurance Policy Assistant API",
+        "description": "API for the Insurance Policy Assistant with RAG pipeline for pension insurance queries",
+        "version": "1.0.0",
+        "docs_url": "/api-docs",
+        "redoc_url": null
+    },
+    "model_config": {
+        "embedding_model": "all-mpnet-base-v2",
+        "llm": "deepseek-r1:1.5b",
+        "chunk_size": 1000,
+        "chunk_overlap": 200
+    },
+    "server_config": {
+        "host": "0.0.0.0",     
+        "port": 8000
+    }
+}
