@@ -32,16 +32,16 @@ cd pension-rag-assistant
 
 ## Project Structure
 
-pension-rag-assistant/
-├── app.py                # Streamlit frontend
-├── main.py               # FastAPI backend
-├── InsuranceModel.py     # RAG pipeline implementation
-├── requirements.txt      # Python dependencies
-├── documents/            # Sample document storage
-│   ├── policy_advice.xlsx
-│   ├── phone_numbers.pdf
-│   └── ...
-└── README.md    
+pension-rag-assistant/\\
+├── app.py                # Streamlit frontend\\
+├── main.py               # FastAPI backend\\
+├── InsuranceModel.py     # RAG pipeline implementation\\
+├── requirements.txt      # Python dependencies\\
+├── documents/            # Sample document storage\\
+│   ├── policy_advice.xlsx\\
+│   ├── phone_numbers.pdf\\
+│   └── ...\\
+└── README.md\\    
 
 ## Architecture
 
